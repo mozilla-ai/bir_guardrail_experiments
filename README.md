@@ -13,8 +13,26 @@ uv sync
 source .venv/bin/activate
 ```
 
+To run any of the below, please make sure to download the `Benchmark Datasets` to run the experiments and the `Formatted Data` to run the analyses.
+
 # Running our experiments
 
 For all of our experiments, we used an H100 GPU. However, a high powered MacBook Pro or other equivalent machine should be able to handle the experiments. To run our experiments, use `jupyter lab` and access the following notebooks:
+
+```
+IPIA_Experiments.ipynb
+Function_Calling_Experiments.ipynb
+```
+
+Those will allow you rerun our experiments and obtain the raw results.
+
+# Analyzing our data
+
+If you would rather read through our data and results, we recommend using our notebooks to get the metrics we produce in our blog post <WILL LINK TO BLOG POST>. To do so, use `jupyter lab` and access the following notebooks:
+
+```
+IPIA_Analysis.ipynb
+Function_Calling_Analysis.ipynb
+```
 
 
